@@ -1,0 +1,160 @@
+body {
+    background-color: grey;
+}
+/* o before vai está colocando uma imagem em uma camada anterior do body */
+body::before {
+    content: "";
+    background-image: url(/assets/img/1214127.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .1;
+}
+
+/* MENU */
+.menu {
+    padding-left: 10px;
+    padding: 1.5rem;
+    background: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu__links {
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: relative;
+    color: white;
+}
+
+.s-menu {
+    margin-right: 10rem;
+}
+
+.menu__links li a {
+    padding-right: 10px;
+
+}
+/* PRINCIPAL */
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    padding-left: 2rem;
+    height: 500px;
+    padding: 0 50px;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    margin: 10rem 0rem 5rem 0rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.texto {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    position: relative;
+}
+
+/* MAIN */
+
+.area-principal__texto {
+    color: black;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-family: 'Signika Negative';
+}
+
+.area-principal__texto:hover {
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: white;
+    transition: ease-in-out all .2s;
+}
+
+.area-principal__position {
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+/* ICONS */
+.games::before {
+    display: inline-block;
+    content: " ";
+    background-image: url(/assets/icons/gamer-arcade-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 2.8rem;
+    position: relative;
+    margin-right: .5rem;
+}
+
+.casa::before {
+    display: inline-block;
+    content: " ";
+    background-image: url(/assets/icons/house-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 2.5rem;
+    position: relative;
+    margin-right: .5rem;
+}
+
+.idade::before {
+    display: inline-block;
+    content: " ";
+    background-image: url(/assets/icons/balloons-birthday-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 2rem;
+    position: relative;
+    margin-right: .5rem;
+}
+
+.eu::before {
+    display: inline-block;
+    text-align: center;
+    content: " ";
+    background-image: url(/assets/icons/person-who-gargles-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 2.9rem;
+    height: 2rem;
+    position: relative;
+    margin-right: .5rem;
+    
+}
+

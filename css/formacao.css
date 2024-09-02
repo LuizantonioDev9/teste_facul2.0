@@ -1,0 +1,76 @@
+.area-principal__texto {
+    color: black;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-family: 'Signika Negative';
+}
+
+.area-principal__position {
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+
+.mysql::before {
+    /* display: flex; */
+    content: " ";
+    background-image: url(/assets/icons/mysql-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 2.8rem;
+    display: inline-block;
+    position: relative;
+    margin-right: .5rem;
+}
+
+.java::before {
+    /* display: flex; */
+    content: " ";
+    background-image: url(/assets/icons/java-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 2.5rem;
+    display: inline-block;
+    position: relative;
+    margin-right: .5rem;
+}
+
+.python::before {
+    /* display: flex; */
+    content: " ";
+    background-image: url(/assets/icons/python-127-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 2rem;
+    display: inline-block;
+    position: relative;
+    margin-right: .5rem;
+}
+
+.ads::before {
+    display: inline-block;
+    text-align: center;
+    content: " ";
+    background-image: url(/assets/icons/computer-tv-svgrepo-com.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 2.9rem;
+    height: 2rem;
+    position: relative;
+    margin-right: .5rem;
+}
+
+
+

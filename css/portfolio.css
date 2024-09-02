@@ -1,0 +1,89 @@
+.principal {
+    display: grid;
+}
+
+.titulo__principal {
+    text-align: center;
+    background-color: black;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    opacity: .8;
+}
+
+.titulo_exp {
+    grid-column-start:4 ;
+    grid-column-end:9;
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    margin: 10rem 0rem 5rem 0rem;
+}
+
+.texto__principal {
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    bottom: 0;
+    background: black;
+    opacity: .8;
+    width: 100%;
+    text-align: center;
+}
+
+.principal__img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    border: solid 2px white;
+    width: 405px;
+    height: 400px;
+    position: relative;
+}
+
+.card-2 {
+    grid-column-start:4 ;
+    grid-column-end:6 ;
+    border: solid 2px white;
+    width: 405px;
+    height: 400px;
+    position: relative;
+}
+
+.card-3 {
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    border: solid 2px white;
+    width: 405px;
+    height: 400px;
+    position: relative;
+}
+
+.card-4 {
+    grid-column-start:10 ;
+    grid-column-end:11 ;
+    border: solid 2px white;
+    width: 405px;
+    height: 400px;
+    position: relative;
+}
+
+/* .card:hover > .principal__img:hover {
+    display: block;
+    border: solid 3px white;
+    width: 455px;
+    height: 450px;
+    transition: ease-in-out all .4s;
+}
+
+.card:hover,.titulo__principal:hover {
+    display: block;
+    width: 455px;
+    transition: ease-in-out all .4s;
+} */

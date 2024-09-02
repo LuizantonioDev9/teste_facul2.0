@@ -1,0 +1,33 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    width: 500px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.titulo_contact {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

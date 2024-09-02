@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- Links com o reset css, main e o css da sua pagina -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+<body>
+    <!-- Nav bar com os links para as outras paginas -->
+    <header>
+        <div class="menu">
+            <div class="container">
+                <a class="menu__links" href="index.html">Sobre mim</a>
+                <a class="menu__links" href="formacao.html">Formação</a>
+                <a class="menu__links" href="portfolio.html">Portfolio</a>
+                <a class="menu__links" href="contato.html">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- conteudo principal -->
+    <main class="principal">
+        <h2 class="titulo">Formulario:</h2>
+        <section>
+            <form action="" method="get">
+                <h2 class="titulo_contact">Contato</h2>
+                <label class="text" for="fname">Nome: </label>
+                <input type="text" name="fname" id="fname" placeholder="Digite seu nome"><br>
+                <label class="text" for="femail">Email:</label>
+                <input type="email" name="femail" id="femail" placeholder="Digite seu email"><br>
+                <label class="text" for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button type="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
